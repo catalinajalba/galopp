@@ -1,4 +1,4 @@
-# private-galopp
+# galopp
 
 You can easily test the REST api by:
 
