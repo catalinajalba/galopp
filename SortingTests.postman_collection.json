@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "c324687e-7bfa-45b9-9f1b-695f10b47569",
+		"name": "SortingTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sort My Cases",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Week 2: Saturday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-10-30T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Sunday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-10-24T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Wednesday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-10-20T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Wednesday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-10-27T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Monday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-10-25T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Thursday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-10-21T16:30:00\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sort",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sort"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sort ATG Cases",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Week 1: Monday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-10-25T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Tuesday:V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-10-26T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Wednesday: V86\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-10-27T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Thursday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-10-28T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Friday: V86\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-10-29T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Saturday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-10-30T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Sunday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-10-31T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Monday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-11-01T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Tuesday:V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-11-02T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Wednesday: V86\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-11-03T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Thursday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-11-04T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Friday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-11-05T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Saturday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-11-06T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Sunday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-11-07T16:30:00\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sort",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sort"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sort ATG Extra Cases",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Week 1: Monday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-10-25T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Tuesday:V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-10-26T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Wednesday: V86\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-10-27T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Thursday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-10-28T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Friday: V86\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-10-29T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Saturday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-10-30T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Sunday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-10-31T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Monday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-11-01T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Tuesday:V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-11-02T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Wednesday: V86\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-11-03T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Thursday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-11-04T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Friday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-11-05T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Saturday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-11-06T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Sunday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-11-07T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Monday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-10-25T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Tuesday:V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-10-26T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Wednesday: V86\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-10-27T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Thursday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-10-28T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Friday: V86\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-10-29T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Saturday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-10-30T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Sunday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-10-31T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Monday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-11-01T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Tuesday:V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-11-02T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Wednesday: V86\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-11-03T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Thursday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-11-04T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Friday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-11-05T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Saturday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-11-06T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Sunday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-11-07T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 0: Thursday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-10-21T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Sunday: GS75\",\r\n        \"type\": \"GS75\",\r\n        \"start\": \"2021-10-31T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 1: Friday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-10-29T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Monday: V64\",\r\n        \"type\": \"V64\",\r\n        \"start\": \"2021-11-01T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Monday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-11-01T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Week 2: Saturday: V75\",\r\n        \"type\": \"V75\",\r\n        \"start\": \"2021-11-06T16:30:00\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sort",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sort"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sort",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Example Game\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-12-04T16:30:00\"\r\n    },\r\n    {\r\n        \"name\": \"Example Game\",\r\n        \"type\": \"V86\",\r\n        \"start\": \"2021-12-04T16:30:00\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/sort",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"sort"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
